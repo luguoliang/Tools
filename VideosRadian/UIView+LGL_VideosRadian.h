@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface UIView (LGL_VideosRadian)
--(void)lgl_addRadinsWith;
+
+-(void)lgl_addRadinsWith;//给view的一边添加一个弧度
+
+-(void)lgl_lockAnimationForView;//仿系统抖动动画,可以实现输入框的抖动效果
 @end
